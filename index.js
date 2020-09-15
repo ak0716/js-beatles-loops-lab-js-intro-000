@@ -20,6 +20,6 @@ function johnLennonFacts(array) {
   ];
   while(let i = 0; i < facts.length; i++ ) {
     array.push(`${facts[i]}!!!`)
-    return array
   }
+  return array
 }
