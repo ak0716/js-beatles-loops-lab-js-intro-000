@@ -20,5 +20,5 @@ function johnLennonFacts(array) {
     let i = 0
     array.push(`${facts[i]}!!!`)
     i += 1
-  }
+  } return array
 }
