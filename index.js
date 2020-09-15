@@ -18,6 +18,5 @@ function johnLennonFacts(array) {
   ];
   for (let i = 0; i <= facts.length; i++) {
     array.push(`${facts[i]}!!!`)
-    return array
-  }
+  } return array
 }
