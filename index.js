@@ -16,7 +16,9 @@ function johnLennonFacts(array) {
     "While on tour, he enjoyed playing Monopoly",
     "Harmonica was the first instrument Lennon learned to play"
   ];
-  for (let i = 0; i <= facts.length; i++) {
+  while (array.length < facts.length) {
+    let i = 0
     array.push(`${facts[i]}!!!`)
-  } return array
+    i += 1
+  }
 }
