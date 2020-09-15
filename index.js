@@ -21,6 +21,6 @@ function johnLennonFacts(array) {
 
     array.push(`${facts[i]}!!!`)
     i += 1
-    console.log(array)
-  }
+
+  }return array
 }
