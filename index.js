@@ -18,7 +18,7 @@ function johnLennonFacts(array) {
     "He was a choir boy and boy scout",
     "He hated the sound of his own voice"
   ];
-  while(let i = 0; i < facts.length; i++ ) {
+  while(i < facts.length) {
     array.push(`${facts[i]}!!!`)
   }
   return array
