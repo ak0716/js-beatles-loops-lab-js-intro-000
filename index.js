@@ -4,7 +4,7 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
 function theBeatlesPlay(musicians, instruments) {
   let beatles = []
   for (let i = 0; i <= 3; i++) {
-    beatles.push(musicians[0], instruments[0])
+    beatles.push(`${musicians[0]} plays ${instruments[0]}`)
   }
   return beatles
 }
