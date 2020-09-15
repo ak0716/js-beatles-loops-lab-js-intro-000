@@ -19,7 +19,7 @@ function johnLennonFacts(facts) {
   let i = 0
   while (array.length <= facts.length) {
     array.push(`${facts[i]!!!}`)
-    i += 1
+    i++
   } return array
   console.log(array)
 }
