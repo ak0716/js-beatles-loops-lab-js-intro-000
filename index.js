@@ -16,8 +16,8 @@ const facts = [
 ]
 function johnLennonFacts(facts) {
   let array = []
-  let i = 0
   while (array.length < facts.length) {
+    let i = 0
     array.push(`${facts[i]!!!}`)
     i++
   } return array
