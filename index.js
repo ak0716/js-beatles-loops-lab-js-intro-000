@@ -16,10 +16,10 @@ const facts = [
 ]
 function johnLennonFacts(facts) {
   let array = []
-  while (array.length < facts.length) {
+  while (array.length <= facts.length) {
     let i = 0
     array.push(facts[i] + "!!!")
-    i++
+    i += 1
   } return array
   console.log(array)
 }
