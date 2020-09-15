@@ -24,3 +24,4 @@ function johnLennonFacts(array) {
 
   }return array
 }
+johnLennonFacts(array)
