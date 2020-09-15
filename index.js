@@ -6,4 +6,5 @@ function theBeatlesPlay(musicians, instruments) {
   for (let i = 0; i <= 3; i++) {
     beatles.push(musicians[0], instruments[0])
   }
+  return beatles
 }
