@@ -22,3 +22,4 @@ function johnLennonFacts(array) {
     i++
   } return array
 }
+console.log(array)
