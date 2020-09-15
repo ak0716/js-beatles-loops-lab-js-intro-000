@@ -14,12 +14,12 @@ const facts = [
   "While on tour, he enjoyed playing Monopoly",
   "Harmonica was the first instrument Lennon learned to play"
 ]
-let array = []
-function johnLennonFacts(array) {
-  let i = 0
+function johnLennonFacts(facts) {
+  let array = []
   while (array.length < facts.length) {
-    array.push(`${facts[i]}!!!`)
-    i++
+    let i = 0
+    array.push(facts[i] + "!!!")
+    i += 1
   } return array
   console.log(array)
 }
