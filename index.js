@@ -11,14 +11,15 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 let array = []
+let i = 0
+const facts = [
+  "While on tour, he enjoyed playing Monopoly",
+  "Harmonica was the first instrument Lennon learned to play"
+];
 function johnLennonFacts(array) {
-  let i = 0
-  const facts = [
-    "While on tour, he enjoyed playing Monopoly",
-    "Harmonica was the first instrument Lennon learned to play"
-  ];
   while (array.length < facts.length) {
-    return array.push(facts[i] + '!!!')
+    array.push(facts[i] + '!!!')
     i += 1
+    return array
   }
 }
