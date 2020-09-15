@@ -22,4 +22,3 @@ function johnLennonFacts(array) {
     i += 1
   }
 } return array
-johnLennonFacts(array)
